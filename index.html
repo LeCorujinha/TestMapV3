@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6cf65b82efd2021f8beb89ed28de1b33 {
+                #map_772670f8eb663ac130c2f9cc30ce6c38 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -42,14 +42,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_6cf65b82efd2021f8beb89ed28de1b33" ></div>
+            <div class="folium-map" id="map_772670f8eb663ac130c2f9cc30ce6c38" ></div>
         
 </body>
 <script>
     
     
-            var map_6cf65b82efd2021f8beb89ed28de1b33 = L.map(
-                "map_6cf65b82efd2021f8beb89ed28de1b33",
+            var map_772670f8eb663ac130c2f9cc30ce6c38 = L.map(
+                "map_772670f8eb663ac130c2f9cc30ce6c38",
                 {
                     center: [-29.6883, -51.1321],
                     crs: L.CRS.EPSG3857,
@@ -63,46 +63,46 @@
 
         
     
-            var tile_layer_7ea95bfb4197f9e52bcb4ced990a98da = L.tileLayer(
+            var tile_layer_a5daf0d8e6a500dfdac353d94f3df3c1 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_6cf65b82efd2021f8beb89ed28de1b33);
+            ).addTo(map_772670f8eb663ac130c2f9cc30ce6c38);
         
     
-            var marker_cluster_8429a5a7565e3a433137847fbb71b4f3 = L.markerClusterGroup(
+            var marker_cluster_38416bb3aa0ae9cf6ea03e76248b2ade = L.markerClusterGroup(
                 {}
             );
-            map_6cf65b82efd2021f8beb89ed28de1b33.addLayer(marker_cluster_8429a5a7565e3a433137847fbb71b4f3);
+            map_772670f8eb663ac130c2f9cc30ce6c38.addLayer(marker_cluster_38416bb3aa0ae9cf6ea03e76248b2ade);
         
     
-            var marker_5371c61993b5d21502e7a3067a5cfb64 = L.marker(
+            var marker_bb07e75fea099ea3ffe25fa5c2174590 = L.marker(
                 [-29.67897, -51.13453],
                 {}
-            ).addTo(marker_cluster_8429a5a7565e3a433137847fbb71b4f3);
+            ).addTo(marker_cluster_38416bb3aa0ae9cf6ea03e76248b2ade);
         
     
-            var icon_5724d65a4fff2c2f9b8f18b9fdec06b9 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            var icon_97570ad23d21a3272071f4806de78ed2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
             );
-            marker_5371c61993b5d21502e7a3067a5cfb64.setIcon(icon_5724d65a4fff2c2f9b8f18b9fdec06b9);
+            marker_bb07e75fea099ea3ffe25fa5c2174590.setIcon(icon_97570ad23d21a3272071f4806de78ed2);
         
     
-        var popup_e0bf8e6b882144843fe1504c76137383 = L.popup({"maxWidth": 500});
+        var popup_643c9cf63ab17aa9cbbbe0bafce1d644 = L.popup({"maxWidth": 500});
 
         
             
-                var html_c685a81ec2388b55c4fbd507cc36bbd3 = $(`<div id="html_c685a81ec2388b55c4fbd507cc36bbd3" style="width: 100.0%; height: 100.0%;">Nome do Dispositivo: Camera1<br>MAC: 1CC31641263E<br>Modo de Operação: WORK<br>Status Energia: Carga Completa<br>Nível Bateria: 99%</div>`)[0];
-                popup_e0bf8e6b882144843fe1504c76137383.setContent(html_c685a81ec2388b55c4fbd507cc36bbd3);
+                var html_03ec82d408bc14a36340902c95bb8e39 = $(`<div id="html_03ec82d408bc14a36340902c95bb8e39" style="width: 100.0%; height: 100.0%;">Nome do Dispositivo: Camera1<br>MAC: 1CC31641263E<br>Modo de Operação: WORK<br>Status Energia: Erro de Carregamento<br>Nível Bateria: 99%</div>`)[0];
+                popup_643c9cf63ab17aa9cbbbe0bafce1d644.setContent(html_03ec82d408bc14a36340902c95bb8e39);
             
         
 
-        marker_5371c61993b5d21502e7a3067a5cfb64.bindPopup(popup_e0bf8e6b882144843fe1504c76137383)
+        marker_bb07e75fea099ea3ffe25fa5c2174590.bindPopup(popup_643c9cf63ab17aa9cbbbe0bafce1d644)
         ;
 
         
     
     
-            marker_5371c61993b5d21502e7a3067a5cfb64.bindTooltip(
+            marker_bb07e75fea099ea3ffe25fa5c2174590.bindTooltip(
                 `<div>
                      Nome do Dispositivo: Camera1
                  </div>`,
@@ -110,34 +110,34 @@
             );
         
     
-            var marker_bb333f2377a889783bb25b53cd8e40f2 = L.marker(
+            var marker_8ebe485b1988b0db43e50006df0584e1 = L.marker(
                 [-29.67898, -51.13441],
                 {}
-            ).addTo(marker_cluster_8429a5a7565e3a433137847fbb71b4f3);
+            ).addTo(marker_cluster_38416bb3aa0ae9cf6ea03e76248b2ade);
         
     
-            var icon_657aaadb42e282e5f2b4c221abcf34f8 = L.AwesomeMarkers.icon(
+            var icon_0a5c714fa98a1e4e58c77f698c76138f = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "camera", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_bb333f2377a889783bb25b53cd8e40f2.setIcon(icon_657aaadb42e282e5f2b4c221abcf34f8);
+            marker_8ebe485b1988b0db43e50006df0584e1.setIcon(icon_0a5c714fa98a1e4e58c77f698c76138f);
         
     
-        var popup_f75a775a11c48ad9b04f383008c2da66 = L.popup({"maxWidth": 500});
+        var popup_3eefc66260315c97cccddfea5bfc1c4b = L.popup({"maxWidth": 500});
 
         
             
-                var html_967f8be932c18473553a41e5290fff71 = $(`<div id="html_967f8be932c18473553a41e5290fff71" style="width: 100.0%; height: 100.0%;">Nome do Dispositivo: Camera16mm<br>MAC: 1CC316412677<br>Modo de Operação: WORK<br>Status Energia: Carga Completa<br>Nível Bateria: 99%</div>`)[0];
-                popup_f75a775a11c48ad9b04f383008c2da66.setContent(html_967f8be932c18473553a41e5290fff71);
+                var html_668da65cdf9993204a5cd8c99dc8a8f5 = $(`<div id="html_668da65cdf9993204a5cd8c99dc8a8f5" style="width: 100.0%; height: 100.0%;">Nome do Dispositivo: Camera16mm<br>MAC: 1CC316412677<br>Modo de Operação: WORK<br>Status Energia: Carga Completa<br>Nível Bateria: 99%</div>`)[0];
+                popup_3eefc66260315c97cccddfea5bfc1c4b.setContent(html_668da65cdf9993204a5cd8c99dc8a8f5);
             
         
 
-        marker_bb333f2377a889783bb25b53cd8e40f2.bindPopup(popup_f75a775a11c48ad9b04f383008c2da66)
+        marker_8ebe485b1988b0db43e50006df0584e1.bindPopup(popup_3eefc66260315c97cccddfea5bfc1c4b)
         ;
 
         
     
     
-            marker_bb333f2377a889783bb25b53cd8e40f2.bindTooltip(
+            marker_8ebe485b1988b0db43e50006df0584e1.bindTooltip(
                 `<div>
                      Nome do Dispositivo: Camera16mm
                  </div>`,
